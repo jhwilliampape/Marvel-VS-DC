@@ -1,0 +1,83 @@
+.banner{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 1fr 2fr 2fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "banner banner banner banner banner banner banner";
+    margin-top: 5vh;
+}
+.banner img{
+    max-height: 300px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20vh;
+    padding-left:  5vh;
+}
+
+/*MENU*/
+.menu{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "avengers x-men justice-league suicide-squad side-menu"
+        "fantastic-4 guardians-of-the-galaxy watchmen teen-titans side-menu";
+}
+/*MARVEL Links*/
+.marvel{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
+    margin-top: 10vh;
+}
+
+.marvel img{
+    max-height: 300px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+.guardians-of-the-galaxy{
+    margin-left: 6vh;
+}
+
+/*DC Links*/
+.dc{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
+    margin-top: 10vh;
+}
+
+.dc img{
+    max-height: 300px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+.side-menu{
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: auto;
+    display: inline;
+}
+
+footer{
+    border-top: 2px solid #abd1b8;
+}
+
+#footerElem>div>a>p{
+    display: inline;
+    text-align: center;
+    padding: 10px 0 5px 0;
+    font-size: 80%;
+    margin: 10px;
+}
+
+#footerElem>p{
+    font-size: 80%;
+    text-align: center;
+    padding: 2px;
+}
